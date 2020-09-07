@@ -9,7 +9,7 @@ interface Props {
   prop?: string
 }
 
-const Faceook = styled(FacebookSquare)`
+const Facebook = styled(FacebookSquare)`
   color: ${colors.pink};
   height: 5rem;
 `
@@ -34,11 +34,11 @@ export const Layout = ({ children }: PropsWithChildren<Props>) => {
       >
         <Box>
           <a href="https://www.facebook.com/downtown65endurance">
-            <Faceook />
+            <Facebook />
           </a>
         </Box>
 
-        <BodyText>Downtown 65 Endurance ry {new Date().getFullYear()}</BodyText>
+        <BodyText>Downtown 65 Endurance ry &copy; {new Date().getFullYear()}</BodyText>
       </Flex>
     </>
   )

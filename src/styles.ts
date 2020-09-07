@@ -72,6 +72,11 @@ export const theme = {
     nav: {
       color: 'white',
     },
+    link: {
+      color: 'pink',
+      fontWeight: 700,
+      textDecoration: 'none',
+    },
   },
 }
 

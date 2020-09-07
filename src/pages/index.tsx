@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex } from 'rebass/styled-components'
+import { Box, Flex, Link } from 'rebass/styled-components'
 import { Layout } from '../components/layout'
 import { H1, H2, BodyText } from '../components/text'
 
@@ -20,10 +20,16 @@ const IndexPage = () => (
     </Flex>
     <Box p={3}>
       <H2>Seura</H2>
-      <BodyText>
+      <BodyText my={2}>
         Downtown 65 Endurance ry on Länsi-Vantaalainen kestävyysurheiluseura. Lajeina seuralla on
-        mm. suunnistus, triathlon, juoksu, pyöräily ja hiihto. Seura on perustettu xxxx ja jäseniä
-        sillä on 2020 noin 60.
+        mm. suunnistus, triathlon, juoksu, pyöräily ja hiihto. Seura on perustettu 2015 ja jäseniä
+        sillä on sillä noin 60.
+      </BodyText>
+      <BodyText my={2}>
+        Parhaiten pääset tutustumaan seuran toimintaan&nbsp;
+        <Link href="https://www.facebook.com/downtown65endurance" variant="link">
+          Downtown65 Facebookista
+        </Link>
       </BodyText>
     </Box>
   </Layout>
