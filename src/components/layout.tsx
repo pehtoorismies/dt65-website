@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import { Flex, Text, Box, Link } from 'rebass/styled-components'
+import { Flex, Text, Box } from 'rebass/styled-components'
 import { FacebookSquare } from '@styled-icons/boxicons-logos/FacebookSquare'
 import styled from 'styled-components'
 import { colors } from '../styles'
