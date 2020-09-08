@@ -19,6 +19,7 @@ const IndexPage = () => (
           background: `url("/static/dtboys.jpg")`,
           backgroundRepeat: 'none',
           backgroundSize: 'cover',
+          backgroundPositionY: '40%',
           textShadow: '2px 2px 4px #000',
         }}
       >
